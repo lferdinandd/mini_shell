@@ -17,25 +17,25 @@ Ce projet est un interpréteur de commandes Unix écrit en langage C. Il vise à
 
 ## Fonctionnalités implémentées
 
-✅ **Exécution de commandes** avec recherche dans le `$PATH`.  
-✅ **Redirections d’entrée/sortie** :  
+ **Exécution de commandes** avec recherche dans le `$PATH`.  
+ **Redirections d’entrée/sortie** :  
 - `>` pour rediriger la sortie standard vers un fichier,  
 - `<` pour rediriger l’entrée standard à partir d’un fichier,  
 - `2>` pour rediriger la sortie d’erreur.  
-✅ **Pipes** (`|`) permettant la communication entre plusieurs commandes.  
-✅ **Historique des commandes** (commande `history`).  
-✅ **Gestion des signaux** :  
+**Pipes** (`|`) permettant la communication entre plusieurs commandes.  
+**Historique des commandes** (commande `history`).
+   **Gestion des signaux** :  
 - Interruption (Ctrl+C)  
 - Suspension (Ctrl+Z)  
-✅ **Navigation dans l’arborescence** avec la commande `cd`.
+ **Navigation dans l’arborescence** avec la commande `cd`.
 
 ---
 
 ## Fonctionnalités en cours de développement
 
-🔄 **Exécution des commandes en arrière-plan** via l’opérateur `&`.  
-🔄 **Commande `jobs`** pour lister les processus en tâche de fond.  
-🔄 **Commandes `fg` et `bg`** pour relancer les processus suspendus ou en tâche de fond.
+ **Exécution des commandes en arrière-plan** via l’opérateur `&`.  
+ **Commande `jobs`** pour lister les processus en tâche de fond.  
+ **Commandes `fg` et `bg`** pour relancer les processus suspendus ou en tâche de fond.
 
 ---
 
